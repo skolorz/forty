@@ -1,10 +1,10 @@
 ---
-title: "Magna"
+title: "Magna11"
 description: "Lorem Etiam Nullam"
 slug: "magna"
 image: pic09.jpg
 keywords: ""
-categories: 
+categories:
     - ""
     - ""
 date: 2017-10-31T22:26:09-05:00

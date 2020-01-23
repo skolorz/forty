@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Forty"
+languageCode = "pl-pl"
+title = "Żorskie Centrum Karate Kyokushin Shogun Żory 1980"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,8 +19,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Żorskie Centrum Karate Kyokushin Shogun Żory 1980"
+  description = "Żorskie Centrum Karate Kyokushin Shogun Żory 1980"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -37,14 +37,14 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
-    menu = "Menu"
+    title = ""
+    subtitle = ""
+    menu = ""
     # Optional logo as brand stored in img/
-    # logo = "logo.png"
+    #logo = "logo.jpg"
 
     [[params.navigation.links]]
-      name = "Home"
+      name = "Początek"
       url = "#"
 
     [[params.navigation.links]]
@@ -81,49 +81,49 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Żorskie Centrum Karate SHOGUN 1980"
+    subtitle = "DOJO Jerzy Ludziejewski"
+    buttonText = "Trenuj z nami"
 
 
   # Tiles Section
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Środa 18:00"
+      subtitle = "Treningi w środę odbywają się w ŻCOP, zobacz więcej ..."
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Piątek 18:00"
+      subtitle = "W piątek trenujemy w Zespole Szkół nr 3, dowiedz więcej ..."
       image = "pic02.jpg"
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "Dołącz do nas"
+      subtitle = "Dowiedz się jak zacząć trenować ..."
       image = "pic03.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "Dorośli i młodzież"
+      subtitle = "Przyjmujemy dzieci ..."
       image = "pic04.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Trenuj z swoim dzieckiem"
+      subtitle = "W naszej sekcji rodzicie trenują wspólnie z dziećmi ..."
       image = "pic05.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "O nas"
+      subtitle = "Zajęcia prowadzi ..."
       image = "pic06.jpg"
       url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
@@ -137,11 +137,11 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    enable = true
+    enable = false
     title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus pharetra.
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Get Started"
@@ -150,9 +150,9 @@ disqusShortname = ""
 
   # Contact section
   [params.contact]
-    enable = true
-    buttonSend = "Send message"
-    buttonClear = "Clear"
+    enable = false
+    buttonSend = "Wyślij"
+    buttonClear = "Wyczyść"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -172,50 +172,25 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "karat"
 
     [[params.contact.phone]]
-    title = "Phone"
+    title = "Telefon"
     phone = "(000) 000-0000 x1234"
 
     [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    title = "Adrees"
+    street = "Żorskie Centrum Organizacji Pozarządowych os. Sikorskiego 52"
+    city = "Żory"
+    country = ""
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Żorskie Centrum Karate Kyokushin Shogun Żory 1980"
 
     # Uses font awesome icons
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
-
     [[params.footer.social]]
       icon = "fa-facebook"
       url= "https://www.facebook.com"
       label = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com"
-      label = "Instagram"
-    
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com"
-      label = "GitHub"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
-      label = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
