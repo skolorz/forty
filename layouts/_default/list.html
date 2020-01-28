@@ -37,28 +37,26 @@
                         <div class="content">
                             <div class="inner">
                                 <header class="major">
-                                    <h3>{{ .Title }}</h3>
+                                    <a href="#{{ .Slug }}"></a><h3>{{ .Title }}</h3>
                                 </header>
                                 <p>{{ .Description }}</p>
-                                <ul class="actions">
-                                    <li><a href="{{ .Permalink }}" class="button">Learn more</a></li>
-                                </ul>
+
                             </div>
                         </div>
                     </section>
                     {{ end }}
                 </section>
             </div>
-            
+
         {{ "<!-- Footer -->" | safeHTML}}
 			{{ if .Site.Params.footer.enable }}
 				{{ partial "footer.html" . }}
             {{ end }}
-        
+
         </div>
 
     {{ "<!-- Scripts -->" | safeHTML}}
         {{ partial "js.html" . }}
-        
+
     </body>
 </html>
